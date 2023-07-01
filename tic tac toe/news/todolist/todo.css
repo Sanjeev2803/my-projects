@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+div{
+    
+    background-color: rgb(223, 48, 48);
+    color:black;
+    height: 13%;
+    width: 80%;
+    margin-left: 10px;
+
+}
+h1{
+   display: flex; 
+   justify-content: center;
+   text-align: center;
+   margin:10px;
+   padding: 10px  ;
+}
+#input{
+  padding: 10px 100px; 
+  display: flex; 
+  text-align: center;
+  margin: auto;
+  margin-bottom:20px;
+
+}
+button{
+    display: flex;
+    border-radius: 12%;
+    padding: 5px 20px;
+    text-align: center;
+    margin:10px auto;
+    cursor: pointer;
+    color: blueviolet;
+}
+ ul li{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;background-color: rgb(170, 186, 199);
+    max-width: 60%;
+    margin:10px 20px;
+    
+   
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    
+    margin-right: 20px;
+  }
+  /* .strike{
+    text-decoration: line-through;
+  } */
+
+  ul li label {
+    display: block;
+    text-decoration: none;
+  }
+  ul li input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+  }
+  #save{
+    display: inline-block;
+    margin-left: 40px;
+  }
+  #reset{
+    display: inline-block;
+    position: absolute;
+    right: 30%;
+  }
